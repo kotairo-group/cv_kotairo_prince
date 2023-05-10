@@ -195,6 +195,14 @@ ul {
     border-right-color: #bda038;
 }
 
+.section-education .plan h3 {
+    background-color: #2eac6d;
+}
+.section-education .plan h3::before {
+    border-top-color: #22724a;
+    border-right-color: #22724a;
+}
+
 /**** CONTENT ****/
 
 .content {
@@ -518,6 +526,11 @@ ul {
     display: block;
     width: 100%;
     box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    border-radius: 50%;
+}
+.section-about .photo-profile img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .30), 0 0 12px rgba(0, 0, 0, .20);
 }
 
 .section-about .download-resume {
@@ -538,6 +551,7 @@ ul {
 
 .section-about .available {
     text-align: center;
+    text-shadow: 2px 2px #ccc;
 }
 
 .section-about h2 {
