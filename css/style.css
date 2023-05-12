@@ -743,6 +743,20 @@ ul {
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
 }
 
+.company-info {
+    display: flex;
+}
+.company-info img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #cccccc;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.company-info .company-detail {}
+
 .section-experience .period-experience {
     display: inline-block;
     position: absolute;
