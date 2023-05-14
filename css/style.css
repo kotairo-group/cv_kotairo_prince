@@ -813,7 +813,7 @@ ul {
 
 .section-portfolio .item-overlay {
     position: absolute;
-    padding: 30px;
+    padding: 20px;
     left: 0;
     top: 0;
     bottom: 0;
@@ -834,6 +834,7 @@ ul {
     margin-top: 15px;
     opacity: 0;
     transition: all .5s;
+    font-size: 16px;
 }
 
 .section-portfolio .item-portfolio:hover h3 {
@@ -846,7 +847,7 @@ ul {
     position: relative;
     display: inline-block;
     top: 40px;
-    margin-right: 26px;
+    margin-right: 10px;
     cursor: pointer;
     transition: all .5s;
 }
